@@ -1,6 +1,6 @@
 #!/bin/bash
 
-# sh -c $(curl -fsSL https://raw.githubusercontent.com/overred/netgate/main/scripts/node-prepare.sh)
+# wget https://raw.githubusercontent.com/overred/netgate/main/scripts/node-prepare.sh && sudo chmod +x ./node-prepare.sh && sudo ./node-prepare.sh
 
 echo "Обновление зависимостей ..."
 apt -y update
